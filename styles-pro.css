@@ -1,0 +1,96 @@
+body{
+          background: rgba(255, 255, 200,0.5);
+          color: #000;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+          position: fixed;
+          scroll-behavior: smooth;
+          display: grid;
+          grid-template-rows: auto auto auto;
+          grid-template-columns: auto;
+          justify-content: space-between;
+          align-items: center;
+          margin: 3em;
+          z-index: 5;
+          offset: initial;
+          overflow: visible;
+} 
+.navbar ul{
+          background-color: rgba(175, 175, 175,.4);
+          position: absolute;
+          margin: auto ;
+          border: none;
+          border-radius: 25px;
+          justify-self: center;
+}
+ul { margin: 0 auto; text-align: center; } 
+li { display: inline-block; vertical-align: top; }
+.itemb{
+          background-color: #fff;
+          border: none;
+          border-radius: 25px;
+}
+.itemb a{
+          padding: -20px;
+          
+}
+.navbar a{
+          color: #000;
+}
+.section1{
+          width: 100vw;
+          height: 50vh;
+          color: #000;
+          text-align: center;
+          margin: auto;
+}
+.section1 h1{
+          width: 12em;
+          font-size: 3em;
+          margin: 20% auto 5% auto;
+}
+.prom{
+          margin: 0;
+}
+.prom li{
+          background-color: rgba(186, 186, 186,0.5);
+          border: none;
+          border-radius: 20px;
+          justify-content: space-between;
+          color: #000;
+          margin: 10px;
+          font-size: medium;
+          padding: 10px;
+}
+/*
+opacity: 1;
+filter: blur(0px); */
+.section2{
+          position: relative;
+          display: grid;
+          grid-template: auto/auto;
+          margin-top: 5em;
+}
+.section2 div ul li a img{
+          width: 300px;
+          height: 250px;
+          border-radius: 10px;
+          gap: 25px;
+          margin: 10px 5px 10px 5px;
+}
+.getint{
+          position: relative;
+          top: -140px;
+          margin-top: -100px;
+          color: #727272;
+          font-size: 10em;
+}
+.getint:hover{
+          color: #acabab;
+}
+.foot{
+          width: 100%;
+          background-color: #000;
+          color: rgb(255, 255, 255);
+}
